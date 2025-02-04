@@ -1,12 +1,10 @@
 package org.example;
 
-import org.example.elements.Alphabets;
+import org.example.elements.BigLetters;
+import org.example.elements.SmallLetters;
 import org.example.elements.Numbers;
 import org.example.elements.Symbols;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Generator {
@@ -18,7 +16,8 @@ public class Generator {
     }
 
     public String generatePassword() {
-        Alphabets alphabets = new Alphabets();
+        SmallLetters smallLetters = new SmallLetters();
+        BigLetters bigLetters = new BigLetters();
         Numbers numbers = new Numbers();
         Symbols symbols = new Symbols();
 
@@ -30,16 +29,21 @@ public class Generator {
         for (String s : split) {
             switch (s) {
                 case "1":
-                    for (char alphabet : alphabets.getAlphabet()) {
-                        stringBuilder.append(alphabet);
+                    for (char smallLetter : smallLetters.getSmallLetters()) {
+                        stringBuilder.append(smallLetter);
                     }
                     break;
                 case "2":
+                    for (char bigLetter : bigLetters.getBigLetters()) {
+                        stringBuilder.append(bigLetter);
+                    }
+                    break;
+                case "3":
                     for (char number : numbers.getNumber()) {
                         stringBuilder.append(number);
                     }
                     break;
-                case "3":
+                case "4":
                     for (char symbol : symbols.getSymbols()) {
                         stringBuilder.append(symbol);
                     }
