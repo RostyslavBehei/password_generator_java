@@ -20,12 +20,13 @@ public class Main {
 
         System.out.print("\nLet's create a password that's uniquely\n" +
                 "yours. Choose what to include:\n\n" +
-                "1. Alphabet (e.g., a, b, c)\n" +
-                "2. Numbers (e.g., 1, 2, 3)\n" +
-                "3. Symbols (e.g., !, @, #)\n\n");
+                "1. Small Letter (e.g., a, b, c)\n" +
+                "2. Big Letter (e.g, A, B, C)\n" +
+                "3. Numbers (e.g., 1, 2, 3)\n" +
+                "4. Symbols (e.g., !, @, #)\n\n");
 
         // Get user choices
-        System.out.print("Please select options (separate by commas, e.g., 1,2,3): ");
+        System.out.print("Please select options (separate by commas, e.g., 1,2,3,4): ");
         String options = scanner.nextLine();
 
         System.out.print("Enter the length of the password: ");
