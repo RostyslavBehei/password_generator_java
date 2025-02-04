@@ -69,6 +69,12 @@ Password saved to 'password.txt'.
 Password saved to file!
 ```
 
+### File "password.txt"
+
+```
+[04/02/2025 19:10:45]    Generated Password: *!7ChXB=4Z
+```
+
 ## Requirements
 
 - Java 8 or later
