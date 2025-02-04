@@ -55,14 +55,15 @@ Follow the on-screen instructions to generate a password based on your preferenc
 Let's create a password that's uniquely
 yours. Choose what to include:
 
-1. Alphabet (e.g., a, b, c)
-2. Numbers (e.g., 1, 2, 3)
-3. Symbols (e.g., !, @, #)
+1. Small Letter (e.g., a, b, c)
+2. Big Letter (e.g, A, B, C)
+3. Numbers (e.g., 1, 2, 3)
+4. Symbols (e.g., !, @, #)
 
-Please select options (separate by commas, e.g., 1,2,3): 1,2,3
-Enter the length of the password: 8
+Please select options (separate by commas, e.g., 1,2,3,4): 1,2,3,4
+Enter the length of the password: 10
 
-Your password is: 8+wYc^tv
+Your password is: *!7ChXB=4Z
 Do you want to save the password? (y/n): y
 Password saved to 'password.txt'.
 Password saved to file!
