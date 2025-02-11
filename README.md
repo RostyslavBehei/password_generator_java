@@ -6,7 +6,7 @@ This is a simple and efficient **Password Generator** written in Java. It allows
 
 ## Features
 
-- Generate secure random passwords 
+- Generate secure random passwords
 - Customizable password length
 - Option to include:
   - Uppercase letters
