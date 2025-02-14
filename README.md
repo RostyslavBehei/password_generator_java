@@ -14,7 +14,7 @@ This is a simple and efficient **Password Generator** written in Java. It allows
   - Numbers
   - Special characters
 - Simple and intuitive CLI interface
-
+ 
 ## Installation
 
 1. Clone the repository:
