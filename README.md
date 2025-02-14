@@ -16,7 +16,7 @@ This is a simple and efficient **Password Generator** written in Java. It allows
 - Simple and intuitive CLI interface
 
 ## Installation
-
+ 
 1. Clone the repository:
    ```sh
    git clone https://github.com/RostyslavBegej/password_generator_java.git
