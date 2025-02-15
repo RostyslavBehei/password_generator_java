@@ -1,6 +1,6 @@
 # Password Generator (Java)
 
-## Description 
+## Description
 
 This is a simple and efficient **Password Generator** written in Java. It allows users to generate strong and random passwords based on customizable criteria such as length, inclusion of numbers, uppercase and lowercase letters, and special characters.
 
