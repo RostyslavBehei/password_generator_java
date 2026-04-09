@@ -1,4 +1,4 @@
-# Password Generator (Java)  ґ
+# Password Generator (Java) 
 
 ## Description
 
